@@ -4,7 +4,6 @@
     box-sizing: border-box;
   }
   
-  /* Style the navigation bar */
   nav {
     background-color: orangered;
   }
@@ -20,11 +19,11 @@
     display: inline;
   }
   
-  /* Style the links */
   a {
     text-decoration: none;
     color: white;
     padding: 10px;
+    font-size: larger;
   }
   
   a:hover {
@@ -37,4 +36,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  .footer {
+    background-color: orange;
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
   }
